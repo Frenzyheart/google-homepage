@@ -4,6 +4,38 @@
     font-family: Arial, sans-serif;
 }
 
-.navbar {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
+.navbar ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#profilePic {
+    border-radius: 100px;
+}
+
+.navbar {
+    margin: 15px 29px;
+}
+
+.googleImage {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
