@@ -11,8 +11,8 @@ ul {
 }
 
 .navbar ul {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    right: 29px;
     width: 100%;
 }
 
@@ -24,18 +24,51 @@ ul {
     display: block;
     padding: 10px;
     text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: center;
+    opacity: .75;
+}
+
+#gmailLink {
+    padding-right: 8px;
+    padding-top: 8px;
+}
+
+#imagesLink {
+    padding-top: 8px;
+    padding-left: 7px;
+    padding-right: 14px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
 }
 
 #profilePic {
     border-radius: 100px;
 }
 
+#notificationPic {
+    padding-right: 13px;
+}
+
+#appsPic {
+    padding-right: 11px;
+}
+
 .navbar {
     margin: 15px 29px;
 }
 
-.googleImage {
+#google {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 272px;
+    padding-top: 183px;
+}
+
+.footerRow {
+
 }
