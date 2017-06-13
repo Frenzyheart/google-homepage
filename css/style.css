@@ -1,26 +1,32 @@
+
+/* Reset the margins of the page, and give the page its font */
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
+/* set all of the lists as not having any bullet marks, and removing margins */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
+/* Set the list used for the navbar to the top of the screen. */
 .navbar ul {
     position: absolute;
     right: 29px;
     width: 100%;
 }
 
+/* Make the list items right-aligned and horizontal */
 .navbar li {
     float: right;
 }
 
-.navbar a {
+/* Set all of the links to be the same color, font preferences, etc. */
+a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -31,6 +37,13 @@ ul {
     opacity: .75;
 }
 
+/* Make links underline when hovered over instead of underlined all the time by default
+ (combined with settings in a above) */
+a:hover {
+    text-decoration: underline;
+}
+
+
 #gmailLink {
     padding-right: 8px;
     padding-top: 8px;
@@ -40,10 +53,6 @@ ul {
     padding-top: 8px;
     padding-left: 7px;
     padding-right: 14px;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
 }
 
 #profilePic {
@@ -69,6 +78,42 @@ ul {
     padding-top: 183px;
 }
 
-.footerRow {
+.searchRow {
+    display: block;
+    margin: auto;
+    width: 503px;
+    height: 34px;
+}
 
+.footerRow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.left li {
+    float: left;
+    position: relative;
+    padding-right: 11px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.right li {
+    position: relative;
+    float: right;
+    padding-left: 11px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.left {
+    padding-left: 20px;
+}
+
+.right {
+    padding-right: 20px;
 }
